@@ -14,4 +14,7 @@ export class ProductAlertsComponent implements OnInit {
   ngOnInit() {
   }
 
+  notify() {
+    window.alert('You\'ll be notified when this product is available for $700 or less!');
+  }
 }
