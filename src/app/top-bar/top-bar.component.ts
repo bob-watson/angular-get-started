@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent {
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  cart_empty() {
+    window.alert('Your shopping cart is empty.');
+  }
 
 }
 
